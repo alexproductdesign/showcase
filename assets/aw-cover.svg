@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="1200" height="900" fill="#EFF1F4"/>
+
+  <text x="150" y="318" font-size="15" letter-spacing="3" fill="#8a8a90" font-weight="500">BEFORE</text>
+  <rect x="150" y="342" width="900" height="60" rx="30" fill="#101012"/>
+  <text x="600" y="380" text-anchor="middle" font-size="21" fill="#ffffff" font-weight="600" letter-spacing="1.5">UP TO 2 WEEKS</text>
+
+  <text x="150" y="512" font-size="15" letter-spacing="3" fill="#8a8a90" font-weight="500">AFTER</text>
+  <rect x="150" y="536" width="129" height="60" rx="30" fill="#101012"/>
+  <text x="312" y="577" font-size="32" fill="#101012" font-weight="700" letter-spacing="0.5">2 DAYS MAX</text>
+</svg>
