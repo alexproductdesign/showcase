@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <text x="60" y="76" font-size="13" letter-spacing="2.5" fill="#8a8a90" font-weight="500">WHAT THE TEMPLATE BAKES IN</text>
+
+  <!-- template card -->
+  <rect x="60" y="106" width="420" height="330" rx="20" fill="none" stroke="#101012" stroke-width="1.5"/>
+  <text x="90" y="152" font-size="17" fill="#101012" font-weight="600">Figma Make template</text>
+  <text x="90" y="174" font-size="13" fill="#6b6b70">1:1 replica of the live page</text>
+
+  <g font-size="15" fill="#101012">
+    <rect x="90" y="196" width="360" height="46" rx="12" fill="#f4f2ec"/>
+    <text x="108" y="225">Automatic test naming</text>
+
+    <rect x="90" y="252" width="360" height="46" rx="12" fill="#f4f2ec"/>
+    <text x="108" y="281">Export conventions · role awareness</text>
+
+    <rect x="90" y="308" width="360" height="46" rx="12" fill="#f4f2ec"/>
+    <text x="108" y="337">Pure HTML + CSS for Kameleoon</text>
+
+    <text x="90" y="404" font-size="13" fill="#6b6b70">Owned by one designer · everyone works inside</text>
+  </g>
+
+  <!-- arrow -->
+  <g stroke="#101012" stroke-width="1.5" fill="none">
+    <path d="M480 271h80m0 0-9-7m9 7-9 7"/>
+  </g>
+
+  <!-- QA gate -->
+  <rect x="560" y="196" width="250" height="150" rx="20" fill="#101012"/>
+  <text x="685" y="252" text-anchor="middle" font-size="17" fill="#ffffff" font-weight="600">Designer QA gate</text>
+  <text x="685" y="278" text-anchor="middle" font-size="13" fill="#9d9da4">ship at min. 80% brand compliance</text>
+  <text x="685" y="298" text-anchor="middle" font-size="13" fill="#9d9da4">monitored daily</text>
+
+  <!-- arrow -->
+  <g stroke="#101012" stroke-width="1.5" fill="none">
+    <path d="M810 271h80m0 0-9-7m9 7-9 7"/>
+  </g>
+
+  <!-- live + refine -->
+  <rect x="890" y="206" width="250" height="60" rx="30" fill="none" stroke="#101012" stroke-width="1.5"/>
+  <text x="1015" y="243" text-anchor="middle" font-size="16" fill="#101012">Live test in Kameleoon</text>
+
+  <rect x="890" y="286" width="250" height="60" rx="30" fill="none" stroke="#101012" stroke-width="1.5" stroke-dasharray="5 5"/>
+  <text x="1015" y="315" text-anchor="middle" font-size="15" fill="#101012">Winners refined to 100%</text>
+  <text x="1015" y="333" text-anchor="middle" font-size="12" fill="#6b6b70">before permanent rollout</text>
+
+  <text x="60" y="500" font-size="14" fill="#6b6b70">Fig. 2 – One owner per stage: templates keep output consistent, the QA gate keeps speed honest.</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="1200" height="620" fill="#ffffff"/>
+
+  <!-- BEFORE -->
+  <text x="60" y="86" font-size="13" letter-spacing="2.5" fill="#8a8a90" font-weight="500">BEFORE · UP TO 2 WEEKS</text>
+
+  <g font-size="16" fill="#101012">
+    <rect x="60" y="116" width="180" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
+    <text x="150" y="154" text-anchor="middle">Idea</text>
+
+    <rect x="300" y="116" width="200" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
+    <text x="400" y="154" text-anchor="middle">Design mockup</text>
+
+    <rect x="560" y="104" width="260" height="88" rx="24" fill="#101012"/>
+    <text x="690" y="141" text-anchor="middle" fill="#ffffff">Developer build</text>
+    <text x="690" y="166" text-anchor="middle" fill="#9d9da4" font-size="13">waits for sprint capacity</text>
+
+    <rect x="880" y="116" width="180" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
+    <text x="970" y="154" text-anchor="middle">Live test</text>
+  </g>
+
+  <g stroke="#101012" stroke-width="1.5" fill="none">
+    <path d="M240 148h50m0 0-8-6m8 6-8 6"/>
+    <path d="M500 148h50m0 0-8-6m8 6-8 6"/>
+    <path d="M820 148h50m0 0-8-6m8 6-8 6"/>
+  </g>
+
+  <!-- queue note -->
+  <path d="M690 192v36" stroke="#c9c6bf" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <text x="690" y="250" text-anchor="middle" font-size="14" fill="#6b6b70" font-style="italic">the queue sets the pace, not the work</text>
+
+  <!-- divider -->
+  <line x1="60" y1="316" x2="1140" y2="316" stroke="#e8e6e1"/>
+
+  <!-- AFTER -->
+  <text x="60" y="376" font-size="13" letter-spacing="2.5" fill="#8a8a90" font-weight="500">AFTER · 2 DAYS MAX</text>
+
+  <g font-size="16" fill="#101012">
+    <rect x="60" y="406" width="150" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
+    <text x="135" y="444" text-anchor="middle">Idea</text>
+
+    <rect x="262" y="406" width="230" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
+    <text x="377" y="436" text-anchor="middle">Figma Make template</text>
+    <text x="377" y="456" text-anchor="middle" font-size="12" fill="#6b6b70">design system wired in</text>
+
+    <rect x="544" y="394" width="230" height="88" rx="24" fill="#101012"/>
+    <text x="659" y="431" text-anchor="middle" fill="#ffffff">Designer QA gate</text>
+    <text x="659" y="456" text-anchor="middle" fill="#9d9da4" font-size="13">min. 80% brand compliance</text>
+
+    <rect x="826" y="406" width="150" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
+    <text x="901" y="444" text-anchor="middle">Live test</text>
+
+    <rect x="1028" y="406" width="112" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5" stroke-dasharray="5 5"/>
+    <text x="1084" y="436" text-anchor="middle" font-size="14">Refine</text>
+    <text x="1084" y="456" text-anchor="middle" font-size="12" fill="#6b6b70">winners</text>
+  </g>
+
+  <g stroke="#101012" stroke-width="1.5" fill="none">
+    <path d="M210 438h42m0 0-8-6m8 6-8 6"/>
+    <path d="M492 438h42m0 0-8-6m8 6-8 6"/>
+    <path d="M774 438h42m0 0-8-6m8 6-8 6"/>
+    <path d="M976 438h42m0 0-8-6m8 6-8 6"/>
+  </g>
+
+  <text x="60" y="560" font-size="14" fill="#6b6b70">Fig. 1 – The conversion-test cycle before and after. The sprint queue is gone; a designer QA gate keeps the brand safe.</text>
+</svg>
