@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
-  <rect width="1200" height="900" fill="#EFF1F4"/>
+  <rect width="1200" height="900" fill="#EFEDE6"/>
 
   <text x="150" y="318" font-size="15" letter-spacing="3" fill="#8a8a90" font-weight="500">BEFORE</text>
   <rect x="150" y="342" width="900" height="60" rx="30" fill="#101012"/>
