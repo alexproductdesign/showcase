@@ -166,12 +166,11 @@ a { color: inherit; text-decoration: none; }
   padding: 0 24px;
 }
 
-.hero-name {
-  font-family: var(--font-display);
-  font-size: clamp(52px, 14vw, 230px);
-  font-weight: 400;
-  line-height: 1;
-  white-space: nowrap;
+.hero-name svg {
+  display: block;
+  margin: 0 auto;
+  width: clamp(256px, 69vw, 1134px);
+  height: auto;
 }
 
 .hero-tagline {
@@ -394,13 +393,14 @@ a { color: inherit; text-decoration: none; }
 .icon-button svg { width: 20px; height: 20px; }
 
 .footer-name {
-  font-family: var(--font-display);
-  font-size: clamp(52px, 11.5vw, 190px);
-  line-height: 0.95;
-  letter-spacing: -0.02em;
-  white-space: nowrap;
-  text-align: center;
   margin-bottom: 48px;
+}
+
+.footer-name svg {
+  display: block;
+  margin: 0 auto;
+  width: clamp(256px, 56.7vw, 937px);
+  height: auto;
 }
 
 .footer-bottom {
