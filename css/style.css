@@ -1,65 +1,11 @@
 /* ============ fonts ============ */
-/* Rhymes Display + Suisse Intl are picked up from locally installed
-   trial versions (local() sources only — no font files are shipped).
-   Visitors without them fall back to the free webfonts below.
-   NOTE: buy licenses before pointing src at real font files. */
+/* Golften Demo is picked up from the locally installed demo font
+   (local() only - no font files shipped). Visitors without it fall
+   back to Instrument Serif. NOTE: buy a license before wide sharing. */
 @font-face {
-  font-family: "Rhymes Display";
-  src: local("Rhymes Display Trial Unlicensed Regular"),
-       local("RhymesDisplayTrialUnlicensed-Regular");
+  font-family: "Golften";
+  src: local("Golften Demo Regular"), local("GolftenDemo-Regular");
   font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Rhymes Display";
-  src: local("Rhymes Display Trial Unlicensed Light"),
-       local("RhymesDisplayTrialUnlicensed-Light");
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Rhymes Display";
-  src: local("Rhymes Display Trial Unlicensed UltraLight"),
-       local("RhymesDisplayTrialUnlicensed-UltraLight");
-  font-weight: 200;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Rhymes Display";
-  src: local("Rhymes Display Trial Unlicensed Thin"),
-       local("RhymesDisplayTrialUnlicensed-Thin");
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Rhymes Display";
-  src: local("Rhymes Display Trial Unlicensed Italic"),
-       local("RhymesDisplayTrialUnlicensed-Italic");
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: "Suisse Intl";
-  src: local("Suisse Intl Trial Regular"), local("SuisseIntlTrial-Regular");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Suisse Intl";
-  src: local("Suisse Intl Trial Medium"), local("SuisseIntlTrial-Medium");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Suisse Intl";
-  src: local("Suisse Intl Trial Semibold"), local("SuisseIntlTrial-Semibold");
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Suisse Intl";
-  src: local("Suisse Intl Trial Bold"), local("SuisseIntlTrial-Bold");
-  font-weight: 700;
   font-style: normal;
 }
 
@@ -78,10 +24,10 @@
   --lime: #CDEB8B;
   --lilac: #CDBBF7;
   --radius-card: 28px;
-  --font-display: "Rhymes Display", "Instrument Serif", Georgia, serif;
-  --font-sans: "Suisse Intl", "Space Grotesk", system-ui, -apple-system, sans-serif;
-  --font-serif: "Suisse Intl", "Instrument Serif", Georgia, serif;
-  --font-mono: "Suisse Intl", "Space Mono", ui-monospace, monospace;
+  --font-display: "Golften", "Instrument Serif", Georgia, serif;
+  --font-sans: "Instrument Sans", system-ui, -apple-system, sans-serif;
+  --font-serif: "Instrument Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "Instrument Sans", system-ui, -apple-system, sans-serif;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -223,7 +169,7 @@ a { color: inherit; text-decoration: none; }
 .hero-name {
   font-family: var(--font-display);
   font-size: clamp(44px, 10.5vw, 170px);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1;
   white-space: nowrap;
 }
@@ -348,8 +294,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .cover-statement .cover-big {
-  font-family: var(--font-display);
-  font-weight: 300;
+  font-family: var(--font-sans);
+  font-weight: 500;
   font-size: clamp(30px, 3.4vw, 54px);
   line-height: 1.1;
   color: var(--ink);
@@ -381,8 +327,8 @@ a { color: inherit; text-decoration: none; }
 .grid-card-name {
   display: block;
   margin-top: 18px;
-  font-family: var(--font-display);
-  font-weight: 300;
+  font-family: var(--font-sans);
+  font-weight: 500;
   font-size: 28px;
   line-height: 1.1;
 }
@@ -448,6 +394,7 @@ a { color: inherit; text-decoration: none; }
 .icon-button svg { width: 20px; height: 20px; }
 
 .footer-name {
+  font-family: var(--font-display);
   font-size: clamp(52px, 11.5vw, 190px);
   line-height: 0.95;
   letter-spacing: -0.02em;
@@ -641,8 +588,8 @@ a { color: inherit; text-decoration: none; }
 .case-hero { max-width: 780px; }
 
 .case-title {
-  font-family: var(--font-display);
-  font-weight: 300;
+  font-family: var(--font-sans);
+  font-weight: 500;
   font-size: clamp(36px, 5.4vw, 72px);
   line-height: 1.05;
   margin: 18px 0 22px;
@@ -731,7 +678,7 @@ a { color: inherit; text-decoration: none; }
 
 .impact-num {
   font-family: var(--font-sans);
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: -0.02em;
   font-size: clamp(36px, 4.6vw, 60px);
   line-height: 1;
@@ -763,8 +710,8 @@ a { color: inherit; text-decoration: none; }
 
 /* pull-quote (e.g. How-might-we) */
 .case-quote {
-  font-family: var(--font-display);
-  font-weight: 300;
+  font-family: var(--font-sans);
+  font-weight: 400;
   font-style: italic;
   font-size: clamp(21px, 2.6vw, 28px);
   line-height: 1.35;
@@ -823,8 +770,8 @@ a { color: inherit; text-decoration: none; }
 .case-next:hover { transform: translateY(-4px); }
 
 .case-next-name {
-  font-family: var(--font-display);
-  font-weight: 300;
+  font-family: var(--font-sans);
+  font-weight: 500;
   font-size: clamp(30px, 4vw, 52px);
   margin-top: 10px;
 }
