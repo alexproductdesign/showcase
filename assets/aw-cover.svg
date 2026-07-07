@@ -1,20 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
   <rect width="1200" height="900" fill="#EFEDE6"/>
 
-  <text x="150" y="330" font-size="14" letter-spacing="3" fill="#8a8a90" font-weight="500">BEFORE</text>
-  <g stroke="#101012" stroke-width="1.4">
-    <line x1="150" y1="376" x2="1050" y2="376"/>
-    <line x1="150" y1="366" x2="150" y2="386"/>
-    <line x1="1050" y1="366" x2="1050" y2="386"/>
-  </g>
-  <rect x="510" y="360" width="180" height="32" fill="#EFEDE6"/>
-  <text x="600" y="383" text-anchor="middle" font-size="17" letter-spacing="2.5" fill="#101012" font-weight="500">UP TO 2 WEEKS</text>
+  <text x="108" y="252" font-size="14" letter-spacing="3" fill="#8a8a90" font-weight="500">IDEA → LIVE TEST</text>
 
-  <text x="150" y="530" font-size="14" letter-spacing="3" fill="#8a8a90" font-weight="500">AFTER</text>
-  <g stroke="#101012" stroke-width="1.4">
-    <line x1="150" y1="576" x2="279" y2="576"/>
-    <line x1="150" y1="566" x2="150" y2="586"/>
-    <line x1="279" y1="566" x2="279" y2="586"/>
+  <!-- 14 day cells: 2 used, 12 given back -->
+  <g>
+    <rect x="108" y="294" width="120" height="120" rx="26" fill="#101012"/>
+    <rect x="252" y="294" width="120" height="120" rx="26" fill="#101012"/>
+    <rect x="396" y="294" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="540" y="294" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="684" y="294" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="828" y="294" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="972" y="294" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+
+    <rect x="108" y="438" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="252" y="438" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="396" y="438" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="540" y="438" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="684" y="438" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="828" y="438" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
+    <rect x="972" y="438" width="120" height="120" rx="26" fill="none" stroke="#B9B5A9" stroke-width="1.4"/>
   </g>
-  <text x="312" y="584" font-size="24" letter-spacing="2" fill="#101012" font-weight="600">2 DAYS MAX</text>
+
+  <text x="1092" y="642" text-anchor="end" font-size="14" letter-spacing="3" fill="#101012" font-weight="500">2 OF 14 DAYS</text>
 </svg>
