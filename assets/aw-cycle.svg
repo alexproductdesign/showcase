@@ -1,70 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
-  <rect width="1200" height="760" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect width="1200" height="720" fill="#ffffff"/>
 
   <!-- BEFORE -->
-  <text x="60" y="76" font-size="13" letter-spacing="2.5" fill="#8a8a90" font-weight="500">BEFORE</text>
+  <text x="60" y="76" font-size="12" letter-spacing="2.5" fill="#8a8a90" font-weight="500">BEFORE</text>
 
-  <g font-size="16" fill="#101012">
-    <rect x="60" y="106" width="180" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
-    <text x="150" y="144" text-anchor="middle">Idea</text>
+  <g font-size="15" fill="#101012">
+    <rect x="60" y="106" width="180" height="60" rx="30" fill="none" stroke="#101012" stroke-width="1.2"/>
+    <text x="150" y="142" text-anchor="middle">Idea</text>
 
-    <rect x="300" y="106" width="200" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
-    <text x="400" y="144" text-anchor="middle">Design mockup</text>
+    <rect x="300" y="106" width="200" height="60" rx="30" fill="none" stroke="#101012" stroke-width="1.2"/>
+    <text x="400" y="142" text-anchor="middle">Design mockup</text>
 
-    <rect x="560" y="94" width="260" height="88" rx="24" fill="#101012"/>
-    <text x="690" y="131" text-anchor="middle" fill="#ffffff">Developer build</text>
-    <text x="690" y="156" text-anchor="middle" fill="#9d9da4" font-size="13">waits for sprint capacity</text>
+    <rect x="560" y="96" width="260" height="80" rx="28" fill="#F1EFE8" stroke="#101012" stroke-width="1.2"/>
+    <text x="690" y="130" text-anchor="middle">Developer build</text>
+    <text x="690" y="153" text-anchor="middle" fill="#6b6b70" font-size="12.5">waits for sprint capacity</text>
 
-    <rect x="880" y="106" width="180" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
-    <text x="970" y="144" text-anchor="middle">Live test</text>
+    <rect x="880" y="106" width="180" height="60" rx="30" fill="none" stroke="#101012" stroke-width="1.2"/>
+    <text x="970" y="142" text-anchor="middle">Live test</text>
   </g>
 
-  <g stroke="#101012" stroke-width="1.5" fill="none">
-    <path d="M240 138h50m0 0-8-6m8 6-8 6"/>
-    <path d="M500 138h50m0 0-8-6m8 6-8 6"/>
-    <path d="M820 138h50m0 0-8-6m8 6-8 6"/>
+  <g stroke="#101012" stroke-width="1.2" fill="none">
+    <path d="M240 136h50m0 0-7-5m7 5-7 5"/>
+    <path d="M500 136h50m0 0-7-5m7 5-7 5"/>
+    <path d="M820 136h50m0 0-7-5m7 5-7 5"/>
   </g>
 
-  <!-- duration bar: 14 days, full width -->
-  <rect x="60" y="222" width="1080" height="52" rx="26" fill="#101012"/>
-  <text x="600" y="255" text-anchor="middle" font-size="20" fill="#ffffff" font-weight="600" letter-spacing="1">UP TO 2 WEEKS</text>
+  <!-- duration: dimension line, full width -->
+  <g stroke="#101012" stroke-width="1.2">
+    <line x1="60" y1="240" x2="1140" y2="240"/>
+    <line x1="60" y1="232" x2="60" y2="248"/>
+    <line x1="1140" y1="232" x2="1140" y2="248"/>
+  </g>
+  <rect x="520" y="226" width="160" height="28" fill="#ffffff"/>
+  <text x="600" y="246" text-anchor="middle" font-size="14" letter-spacing="2" fill="#101012" font-weight="500">UP TO 2 WEEKS</text>
 
   <!-- divider -->
-  <line x1="60" y1="356" x2="1140" y2="356" stroke="#e8e6e1"/>
+  <line x1="60" y1="340" x2="1140" y2="340" stroke="#e8e6e1"/>
 
   <!-- AFTER -->
-  <text x="60" y="416" font-size="13" letter-spacing="2.5" fill="#8a8a90" font-weight="500">AFTER</text>
+  <text x="60" y="400" font-size="12" letter-spacing="2.5" fill="#8a8a90" font-weight="500">AFTER</text>
 
-  <g font-size="16" fill="#101012">
-    <rect x="60" y="446" width="150" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
-    <text x="135" y="484" text-anchor="middle">Idea</text>
+  <g font-size="15" fill="#101012">
+    <rect x="60" y="430" width="150" height="60" rx="30" fill="none" stroke="#101012" stroke-width="1.2"/>
+    <text x="135" y="466" text-anchor="middle">Idea</text>
 
-    <rect x="262" y="446" width="230" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
-    <text x="377" y="476" text-anchor="middle">Figma Make template</text>
-    <text x="377" y="496" text-anchor="middle" font-size="12" fill="#6b6b70">design system wired in</text>
+    <rect x="262" y="430" width="230" height="60" rx="30" fill="none" stroke="#101012" stroke-width="1.2"/>
+    <text x="377" y="458" text-anchor="middle">Figma Make template</text>
+    <text x="377" y="477" text-anchor="middle" font-size="11.5" fill="#6b6b70">design system wired in</text>
 
-    <rect x="544" y="434" width="230" height="88" rx="24" fill="#101012"/>
-    <text x="659" y="471" text-anchor="middle" fill="#ffffff">Designer QA gate</text>
-    <text x="659" y="496" text-anchor="middle" fill="#9d9da4" font-size="13">min. 80% brand compliance</text>
+    <rect x="544" y="420" width="230" height="80" rx="28" fill="#F1EFE8" stroke="#101012" stroke-width="1.2"/>
+    <text x="659" y="454" text-anchor="middle">Designer QA gate</text>
+    <text x="659" y="477" text-anchor="middle" fill="#6b6b70" font-size="12.5">min. 80% brand compliance</text>
 
-    <rect x="826" y="446" width="150" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5"/>
-    <text x="901" y="484" text-anchor="middle">Live test</text>
+    <rect x="826" y="430" width="150" height="60" rx="30" fill="none" stroke="#101012" stroke-width="1.2"/>
+    <text x="901" y="466" text-anchor="middle">Live test</text>
 
-    <rect x="1028" y="446" width="112" height="64" rx="32" fill="none" stroke="#101012" stroke-width="1.5" stroke-dasharray="5 5"/>
-    <text x="1084" y="476" text-anchor="middle" font-size="14">Refine</text>
-    <text x="1084" y="496" text-anchor="middle" font-size="12" fill="#6b6b70">winners</text>
+    <rect x="1028" y="430" width="112" height="60" rx="30" fill="none" stroke="#101012" stroke-width="1.2" stroke-dasharray="4 5"/>
+    <text x="1084" y="458" text-anchor="middle" font-size="13.5">Refine</text>
+    <text x="1084" y="477" text-anchor="middle" font-size="11.5" fill="#6b6b70">winners</text>
   </g>
 
-  <g stroke="#101012" stroke-width="1.5" fill="none">
-    <path d="M210 478h42m0 0-8-6m8 6-8 6"/>
-    <path d="M492 478h42m0 0-8-6m8 6-8 6"/>
-    <path d="M774 478h42m0 0-8-6m8 6-8 6"/>
-    <path d="M976 478h42m0 0-8-6m8 6-8 6"/>
+  <g stroke="#101012" stroke-width="1.2" fill="none">
+    <path d="M210 460h42m0 0-7-5m7 5-7 5"/>
+    <path d="M492 460h42m0 0-7-5m7 5-7 5"/>
+    <path d="M774 460h42m0 0-7-5m7 5-7 5"/>
+    <path d="M976 460h42m0 0-7-5m7 5-7 5"/>
   </g>
 
-  <!-- duration bar: 2 days, 1/7 of the width -->
-  <rect x="60" y="562" width="154" height="52" rx="26" fill="#101012"/>
-  <text x="240" y="596" font-size="26" fill="#101012" font-weight="700" letter-spacing="0.5">2 DAYS MAX</text>
+  <!-- duration: short dimension line, 1/7 -->
+  <g stroke="#101012" stroke-width="1.2">
+    <line x1="60" y1="564" x2="214" y2="564"/>
+    <line x1="60" y1="556" x2="60" y2="572"/>
+    <line x1="214" y1="556" x2="214" y2="572"/>
+  </g>
+  <text x="238" y="570" font-size="16" letter-spacing="1.5" fill="#101012" font-weight="600">2 DAYS MAX</text>
 
-  <text x="60" y="700" font-size="14" fill="#6b6b70">Fig. 1 – The same journey, to scale: the sprint queue is gone and the cycle shrinks to a seventh of its length.</text>
+  <text x="60" y="664" font-size="13.5" fill="#8a8a90">Fig. 1 – The same journey, to scale: the sprint queue is gone and the cycle shrinks to a seventh of its length.</text>
 </svg>
