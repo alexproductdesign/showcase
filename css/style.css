@@ -303,6 +303,38 @@ a { color: inherit; text-decoration: none; }
   object-fit: cover;
 }
 
+/* typographic cover (statement instead of a screenshot) */
+.cover-statement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  height: 100%;
+  background: #EFEDE6;
+  text-align: center;
+  padding: 24px;
+}
+
+.cover-statement .cover-big {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(30px, 3.4vw, 54px);
+  line-height: 1.1;
+  color: var(--ink);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.cover-statement .cover-sub {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--ink-soft);
+  text-transform: none;
+  letter-spacing: 0;
+}
+
 .grid-cover span {
   font-family: var(--font-mono);
   font-size: 12px;
