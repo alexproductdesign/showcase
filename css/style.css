@@ -973,3 +973,59 @@ a { color: inherit; text-decoration: none; }
   .d-pupil { width: 20px; height: 20px; margin: -10px 0 0 -10px; }
   .dome-content { margin-top: 130px; }
 }
+
+
+/* ============ experiment stories (payment form case) ============ */
+.stories {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.story {
+  background: var(--card);
+  border-radius: 20px;
+  padding: 34px 38px 30px;
+}
+
+.story-tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.story-tag {
+  display: inline-flex;
+  padding: 6px 13px;
+  border-radius: 999px;
+  background: #F1EFE8;
+}
+
+.story-tag.is-win { background: #E1FF53; color: #101012; }
+.story-tag.is-loss { background: #101012; color: #ffffff; }
+
+.story h3 {
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-bottom: 14px;
+}
+
+.story p {
+  font-size: 15.5px;
+  line-height: 1.62;
+  color: var(--ink-soft);
+  max-width: 46em;
+  margin-bottom: 12px;
+}
+
+.story .story-learning {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+@media (max-width: 860px) {
+  .story { padding: 24px 20px; }
+}
