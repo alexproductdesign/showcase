@@ -141,8 +141,8 @@ a { color: inherit; text-decoration: none; }
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: #101012;
-  color: #ffffff;
+  background: #E1FF53;
+  color: #101012;
   display: grid;
   place-items: center;
   box-shadow: 0 4px 16px rgba(16, 16, 18, 0.1);
@@ -234,8 +234,8 @@ a { color: inherit; text-decoration: none; }
 /* minimal palette: white pills, black as the one accent */
 .pill { background: #ffffff; color: #101012; border: 1px solid var(--line); }
 .pill[data-color="coral"] {
-  background: #101012;
-  color: #ffffff;
+  background: #E1FF53;
+  color: #101012;
   border: none;
 }
 
