@@ -671,29 +671,6 @@ a { color: inherit; text-decoration: none; }
 
 .impact-label { font-size: 14px; color: var(--ink-soft); }
 
-/* case snapshot summary */
-.case-summary {
-  margin-top: 8px;
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  background: var(--card);
-  overflow: hidden;
-}
-
-.summary-row {
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  gap: 24px;
-  padding: 22px 28px;
-}
-
-.summary-row + .summary-row { border-top: 1px solid var(--line); }
-
-.summary-row p:last-child {
-  font-size: 15px;
-  line-height: 1.6;
-}
-
 /* text sections */
 .case-section { margin-top: 96px; }
 
@@ -802,7 +779,6 @@ a { color: inherit; text-decoration: none; }
 
   .case { padding: 140px 20px 80px; }
   .case-impact { grid-template-columns: 1fr; gap: 32px; }
-  .summary-row { grid-template-columns: 1fr; gap: 8px; padding: 18px 20px; }
   .insights { grid-template-columns: 1fr; }
   .experiment-row { grid-template-columns: 1fr; gap: 8px; }
   .case-media-pair { grid-template-columns: 1fr; }
