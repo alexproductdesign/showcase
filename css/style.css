@@ -458,6 +458,30 @@ a { color: inherit; text-decoration: none; }
   color: #b9b6ae;
 }
 
+.about-portrait {
+  float: right;
+  width: 280px;
+  margin: 0 0 24px 36px;
+  border-radius: 22px;
+  overflow: hidden;
+  transform: rotate(1.5deg);
+  box-shadow: 0 14px 34px rgba(16, 16, 18, 0.12);
+}
+.about-portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 560px) {
+  .about-portrait {
+    float: none;
+    width: 78%;
+    max-width: 300px;
+    margin: 8px auto 36px;
+    display: block;
+  }
+}
+
 .about-body p {
   font-size: 17px;
   line-height: 1.65;
