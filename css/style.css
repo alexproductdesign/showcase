@@ -429,6 +429,12 @@ a { color: inherit; text-decoration: none; }
   text-align: left;
   margin-bottom: 40px;
 }
+.about-title .name-logo {
+  display: block;
+  width: clamp(240px, 44vw, 420px);
+  height: auto;
+  color: var(--ink);
+}
 
 .about-title em { font-style: italic; }
 
