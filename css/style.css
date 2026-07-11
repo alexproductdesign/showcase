@@ -149,7 +149,7 @@ a { color: inherit; text-decoration: none; }
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: #E1FF53;
+  background: var(--accent, #E1FF53);
   color: #101012;
   display: grid;
   place-items: center;
@@ -159,6 +159,12 @@ a { color: inherit; text-decoration: none; }
 
 .mail-button:hover { transform: scale(1.08) rotate(-6deg); }
 .mail-button svg { width: 20px; height: 20px; }
+
+/* homepage accent scheme (scoped to .home) */
+.home { --accent: #EE7433; }
+.home .pill[data-color="coral"] { background: #F0A7F0; }
+.home .pill-badge[title="Details matter"] { background: #2B45E8; }
+.home .pill-badge[title="Details matter"] svg { color: #fff; }
 
 /* ============ hero ============ */
 .hero {
@@ -254,7 +260,7 @@ a { color: inherit; text-decoration: none; }
 /* minimal palette: white pills, black as the one accent */
 .pill { background: #ffffff; color: #101012; border: 1px solid var(--line); }
 .pill[data-color="coral"] {
-  background: #E1FF53;
+  background: var(--accent, #E1FF53);
   color: #101012;
   border: none;
 }
@@ -390,7 +396,7 @@ a { color: inherit; text-decoration: none; }
   transform: translateX(-50%);
   width: 9px;
   height: 9px;
-  background: #E1FF53;
+  background: var(--accent, #E1FF53);
   border-radius: 50%;
 }
 
@@ -990,7 +996,7 @@ a { color: inherit; text-decoration: none; }
   transform: translateX(-50%);
   width: 175vw;
   height: 1600px;
-  background: #E1FF53;
+  background: var(--accent, #E1FF53);
   border-radius: 50%;
 }
 
