@@ -178,16 +178,16 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero-hello {
-  font-size: clamp(17px, 1.6vw, 23px);
+  font-size: clamp(15px, 1.25vw, 19px);
   font-weight: 450;
   color: #26262b;
   opacity: 0.85;
 }
 
 .hero-statement {
-  margin-top: 16px;
-  font-weight: 450;
-  font-size: clamp(52px, 7vw, 108px);
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: clamp(37px, 5.1vw, 77px);
   line-height: 1.02;
   letter-spacing: -0.028em;
   color: #26262b;
@@ -201,8 +201,8 @@ a { color: inherit; text-decoration: none; }
 }
 
 .hero-sub {
-  margin: 24px auto 0;
-  font-size: clamp(18px, 1.7vw, 25px);
+  margin: 14px auto 0;
+  font-size: clamp(15px, 1.25vw, 19px);
   font-weight: 400;
   color: #26262b;
   opacity: 0.85;
@@ -269,6 +269,8 @@ a { color: inherit; text-decoration: none; }
 /* ============ work grid ============ */
 .work-grid-section {
   padding: 40px 48px 40px;
+  max-width: 1180px;
+  margin: 0 auto;
 }
 
 .work-index-label {
@@ -278,7 +280,7 @@ a { color: inherit; text-decoration: none; }
 .work-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 48px 40px;
+  gap: 48px 44px;
 }
 
 .grid-card { display: block; }
