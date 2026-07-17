@@ -30,7 +30,7 @@
 
 /* Eyes pill that follows the cursor over live work cards. */
 (function () {
-  const cards = document.querySelectorAll('.grid-card:not(.coming-soon)');
+  const cards = document.querySelectorAll('.grid-card:not(.coming-soon):not(.no-link)');
   if (!cards.length) return;
 
   const tip = document.createElement('div');

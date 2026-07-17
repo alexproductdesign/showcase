@@ -313,6 +313,10 @@ a { color: inherit; text-decoration: none; }
 
 .grid-card:hover .grid-cover { transform: translateY(-6px); }
 
+/* non-clickable project cards: no pointer, no hover lift */
+.grid-card.no-link { cursor: default; }
+.grid-card.no-link:hover .grid-cover { transform: none; }
+
 .grid-cover img {
   width: 100%;
   height: 100%;
